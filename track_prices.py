@@ -50,7 +50,7 @@ def send_email():
 
     server.login('your_email', 'password')
 
-    subject = "This prices are for you!"
+    subject = "These prices are for you!"
     body = ""
     for mail in mail_product_list:
         body += f"{mail}\n"
