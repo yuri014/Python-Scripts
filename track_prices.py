@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 
-URL = str(input("Link the page here: ")).strip()
+URL = input("Link the page here: ").strip()
 pages = int(input("How many pages? "))
 maximum_price = float(input("What is the maximux price? [ex: 2.999] "))
 
